@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inicio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="iconos/style.css">
+</head>
+<body>
+
+<div class="contenedor-login">
+
+ <div class="img-login">
+<img src="Imagenes/icono-banco.png" height="300" width="300">
+ </div>
+ 
+  <div class="login">
+ 	<input type="text" placeholder="User" class="login-input"><br>
+ 	<input type="password" placeholder="Password" class="login-input">
+
+ 	<a href="Perfil/Menu.html"><input type="submit" class="login-input btn-success" value="Entrar"></a>
+ 	
+ </input>
+ </div>
+
+</div>
+
+<script type="text/javascript" src="Js/jquery-1.11.1.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+
+
+
+
+		var div_error = $('<div class="error"></div>')
+		 
+			div_error.html("	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis, excepturi ullam asperiores vitae aut accusantium, quis autem nisi repellendus molestias doloribus adipisci laboriosam ratione, animi voluptatum quisquam quidem non?");		
+
+			div_error.appendTo('body');
+		 
+		
+
+			div_error.fadeOut(3000, function() {
+				div_error.remove();
+			});
+
+	});
+</script>
+</body>
+</html>

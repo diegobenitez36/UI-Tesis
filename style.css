@@ -1,0 +1,222 @@
+body {
+  background: #1f253d;
+  margin: 20px;
+}
+/*Estilos del Menu*/
+nav {
+  border-radius: 4px;
+  height: auto;
+  margin-left: 10px;
+  background-color: #394264;
+}
+nav ul li {
+  margin: 0px;
+  width: 100px;
+  height: 15px;
+  padding: 15px 15px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background: #394264;
+  transition: 0.5s;
+  font-size: 1em;
+}
+nav ul li:hover {
+  height: 9px;
+  border-bottom: 5px solid #11a8ab;
+  background: #50597b;
+  transition: 0.5s;
+}
+/*Estilos del Menu*/
+/*Estilos del Contenedor*/
+.contenedor {
+  margin-top: 30px;
+  border: 1px solid #f00;
+}
+/*Estilos del Contenedor*/
+/*Estilos del mensajes*/
+.error {
+  width: 95%;
+  height: 50px;
+  color: #fff;
+  background-color: #c11800;
+  opacity: 0.9;
+  font-size: 20px;
+  text-align: center;
+  border-right: 20px solid #f00;
+  box-shadow: 10px 10px 10px #20201c;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  z-index: 100;
+}
+.success {
+  width: 95%;
+  height: 50px;
+  color: #fff;
+  background-color: #5cb11d;
+  opacity: 0.9;
+  font-size: 20px;
+  text-align: center;
+  border-right: 20px solid #008000;
+  box-shadow: 10px 10px 10px #20201c;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  z-index: 100;
+}
+/*Estilos del Mensajes*/
+/*Estilos del Login*/
+.login {
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+  margin-right: 20%;
+  float: right;
+}
+.img-login {
+  width: 25%;
+  height: auto;
+  float: left;
+}
+.contenedor-login {
+  margin: 10px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.login-input {
+  width: 650px;
+  height: 30px;
+  margin: 10px;
+  font-size: 1.5em;
+  color: #727564;
+}
+a {
+  text-decoration: none;
+}
+/*Estilos del Login*/
+/*Estilos de los Botones*/
+.btn-success {
+  color: #fff;
+  border: transparent;
+  background-color: #4f2d53;
+  height: 60px;
+}
+.btn-success:hover {
+  background-color: #8e5195;
+}
+.btn-sm {
+  font-size: 1em;
+  border: transparent;
+  background-color: #7b7e6b;
+  color: #fff;
+  padding: 2px;
+  width: 70px;
+  height: 30px;
+  transition: 0.5s;
+}
+.btn-sm:hover {
+  background-color: #9ea291;
+  transition: 0.5s;
+}
+.btn-info {
+  background-color: #46972b;
+}
+.btn-info:hover {
+  background-color: #217e25;
+}
+/*Estilos de los Botones*/
+/*Estilos de las tablas*/
+table {
+  text-align: center;
+  color: #fff;
+}
+th {
+  background-color: #3468af;
+  color: #fff;
+  text-align: center;
+  padding: 2px;
+  width: 150px;
+  height: 30px;
+  border-radius: 3px;
+}
+td {
+  background-color: #394264;
+}
+td:hover {
+  background-color: #50597b;
+}
+/*Estilos de las Tablas*/
+/*Estilos de las Ventanas Modales*/
+.modalmask {
+  position: fixed;
+  font-family: Arial, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.modalmask:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modalbox {
+  width: 400px;
+  position: relative;
+  padding: 5px 20px 13px 20px;
+  background: #fff;
+  border-radius: 3px;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+.movedown {
+  margin: 0 auto;
+}
+.rotate {
+  margin: 10% auto;
+  -webkit-transform: scale(-5, -5);
+  transform: scale(-5, -5);
+}
+.resize {
+  margin: 10% auto;
+  width: 0;
+  height: 0;
+}
+.modalmask:target .movedown {
+  margin: 10% auto;
+}
+.modalmask:target .rotate {
+  transform: rotate(360deg) scale(1, 1);
+  -webkit-transform: rotate(360deg) scale(1, 1);
+}
+.modalmask:target .resize {
+  width: 400px;
+  height: 200px;
+}
+.close {
+  background: #606061;
+  color: #fff;
+  line-height: 25px;
+  position: absolute;
+  right: 1px;
+  text-align: center;
+  top: 1px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.close:hover {
+  background: #faac58;
+  color: #222;
+}
+/*Estilos de las Ventanas Modales*/
