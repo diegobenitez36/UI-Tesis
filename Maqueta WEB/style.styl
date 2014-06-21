@@ -1,10 +1,7 @@
-/*Variable de colores*/
-color0 = #11a8ab
-color1 = #394264
-color1H = #50597b
-/*Variable de colores*/
+/*Variables de colores*/
+color1= #394264
 
-
+/*Variables de colores*/
 body
   background: #1f253d
   margin 20px;
@@ -12,7 +9,7 @@ body
 /*Estilos del Menu*/
 nav
   border-radius: 4px
-  height: 45px
+  height: auto
   margin-left: 10px
   background-color #394264
 
@@ -25,12 +22,9 @@ nav ul li
   display: inline-block
   text-align: center
   text-decoration: none
-  background: #394264
+  background: color1
   transition: 0.5s
   font-size: 1em
-
-.buscar
-  width 200px
 
 nav ul li:hover
   height 9px
@@ -42,7 +36,6 @@ nav ul li:hover
 
 /*Estilos del Contenedor*/
 .contenedor
-  width 1300px
   margin-top 30px
   border 1px solid red
 
@@ -113,13 +106,6 @@ nav ul li:hover
   font-size: 1.5em
   color: #727564
 
-.input-buscar
-  width 190px
-  height auto
-
-.input-buscar:hover
-border 10px solid color0
-
 a 
   text-decoration none
 /*Estilos del Login*/
@@ -163,7 +149,6 @@ a
 /*Estilos de las tablas*/
 
 table
-  background-color color1
   text-align center
   color #fff
 th
@@ -177,9 +162,7 @@ th
 
 td
    background-color #394264
-   margin 0px
-   border 1px solid color1
-   border-bottom 1px solid color1H
+
 td:hover
   background-color #50597b 
 
@@ -255,55 +238,4 @@ td:hover
   background: #FAAC58
   color: #222
 /*Estilos de las Ventanas Modales*/
-
-/*Sistema de Grillas*/
-/*Ancho del contenedor 1300px*/
-.col-1 
-  width: (1300px / 12);
-  border 1px solid blue
-
-.col-2 
-  width: (1300px / 6);
-  border 1px solid blue
-
-.col-3 
-  width: (1300px / 4);
-  border 1px solid blue
-
-.col-4 
-  width: (1300px / 3);
-  border 1px solid blue
-
-.col-5 
-  width: (1300px / 12);
-  border 1px solid blue
-
-.col-6 
-  width: (1300px / 2);
-  border 1px solid blue
-
-.col-7 
-  width: (1300px / 12);
-  border 1px solid blue
-
-.col-8 
-  width: (1300px / 12);
-  border 1px solid blue
-
-.col-9 
-  width: (1300px / 12);
-  border 1px solid blue
-
-.col-10
-  width: (1300px / 12);
-  border 1px solid blue
-
-.col-11
-  width: (1300px / 12);
-  border 1px solid blue
-
-.col-12 
-  width: (1300px / 1);
-  border 1px solid blue
-/*Sistema de Grillas*/
 
